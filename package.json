@@ -1,0 +1,29 @@
+{
+  "name": "maven-repository-manager",
+  "version": "1.0.0",
+  "description": "A library that provides an implementation for managing maven artifacts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "David Op de Beeck",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidOpDeBeeck/maven-repository-manager.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch:build": "tsc --watch",
+    "test": "mocha -r ts-node/register test/**/*.ts"
+  },
+  "dependencies": {
+    "@types/node": "^11.9.4",
+    "@types/request": "^2.48.1",
+    "request": "^2.88.0",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.6",
+    "mocha": "^6.0.2",
+    "ts-node": "^8.0.3"
+  }
+}
