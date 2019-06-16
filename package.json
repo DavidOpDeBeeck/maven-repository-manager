@@ -1,6 +1,6 @@
 {
   "name": "maven-repository-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library that provides an implementation for managing maven artifacts",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -22,8 +22,8 @@
     "typescript": "^3.3.3"
   },
   "devDependencies": {
-    "@types/mocha": "^5.2.6",
-    "mocha": "^6.0.2",
-    "ts-node": "^8.0.3"
+    "@types/mocha": "^5.2.7",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.3.0"
   }
 }
